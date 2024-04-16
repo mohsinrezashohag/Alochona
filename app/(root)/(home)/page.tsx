@@ -3,11 +3,8 @@ import React from 'react';
 
 const Home = () => {
    const now = new Date();
-const dateOptions = { weekday: 'long', month: 'long', year: 'numeric' };
-const timeOptions = { hour: '2-digit', minute: '2-digit' };
-
-const date = now.toLocaleDateString(undefined, dateOptions);
-const time = now.toLocaleTimeString(undefined, timeOptions);
+   const time = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+   const date = (new Intl.DateTimeFormat('en-US', { dateStyle: 'full' })).format(now);
 
 
     return (
@@ -17,7 +14,7 @@ const time = now.toLocaleTimeString(undefined, timeOptions);
             <h2 className="glassmorphism  rounded py-2 text-left text-base font-normal">
              Manage all of your personal and collaborated meetings
              <br />
-             with "ALOCHONA"
+             with ALOCHONA
             </h2>
             <div className="flex flex-col gap-2">
               <h1 className="text-4xl font-extrabold lg:text-7xl">{time}</h1>
