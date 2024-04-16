@@ -1,26 +1,26 @@
 export const sidebarLinks =[
     {
-        label :'হোম',
+        label :'Home',
         route : '/',
         imageURL :'/icons/home.svg'
     },
     {
-        label :'আপকামিং মিটিং',
+        label :'Upcoming Meetings',
         route : '/upcoming',
         imageURL :'/icons/upcoming.svg'
     },
     {
-        label :'শেষ মিটিং',
+        label :'Last Meetings',
         route : '/previous',
         imageURL :'/icons/previous.svg'
     },
     {
-        label :'রেকর্ডিংস ',
+        label :'Recordings ',
         route : '/recordings',
         imageURL :'/icons/video.svg'
     },
     {
-        label :'পারসোনাল রুম',
+        label :'Personal Room',
         route : '/personal-room',
         imageURL :'/icons/add-personal.svg'
     },
