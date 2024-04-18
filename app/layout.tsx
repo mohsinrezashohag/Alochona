@@ -33,7 +33,9 @@ export default function RootLayout({
     appearance={{
       layout: {
         socialButtonsVariant: "iconButton",
-        logoImageUrl: "/icons/yoom-logo.svg",
+        logoImageUrl: "/images/logo.png",
+        logoPlacement :"inside",
+        
       },
       variables: {
         colorText: "#fff",

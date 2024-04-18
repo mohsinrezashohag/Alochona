@@ -6,7 +6,17 @@
 .bg-hero{
   background-image: url('/images/hero-background.png');
 }
+.cl-internal-10hu44j {
+  width: 3.25rem;
+  height: auto;
+  max-width: 100%;
+  border :none;
+}
 
+.cl-logoImage{
+
+  height: 70px;
+}
 
 @layer base {
   :root {
